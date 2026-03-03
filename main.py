@@ -1,19 +1,17 @@
+'''
+  To jest bylejaki program w Pythonie do ilustracji działania Gita.
+  
+  Autor: Name
+'''
+  
 import numpy as np
   
-def add(a, b):
-      return a + b
+if __name__ == '__main__':
   
-def subtract(a, b):
-      return a - b
+      print("Oto bylejaki program w Pythonie")
+      print("który robi niewiadomo co")
   
-def multiply(a, b):
-      return a * b
+      a = np.array([1, 2, 3, 4, 5])
+      b = np.array([5, 6, 7, 8, 9])
   
-def divide(a, b):
-      return a / b
-  
-if __name__ == "__main__":
-      print(add(1, 2))
-      print(subtract(1, 2))
-      print(multiply(1, 2))
-      print(divide(1, 2))
+      print(a + b)
