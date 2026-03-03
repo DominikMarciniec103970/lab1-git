@@ -1,8 +1,7 @@
-'''
-  To jest bylejaki program w Pythonie do ilustracji działania Gita.
-  
-  Autor: Name
-'''
+"""
+Autor: Dominik Marciniec
+Opis: Prosty program testowy do nauki Git i pracy na branchach.
+"""
   
 import numpy as np
   
